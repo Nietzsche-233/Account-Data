@@ -1,0 +1,13 @@
+GET http://localhost:8080/API/Account
+Accept: application/json
+
+###
+POST http://localhost:8080/API/Account
+Content-Type: application/json
+
+{
+  "type": "111",
+  "money": 2.0,
+  "title": "11",
+  "date": "2"
+}
